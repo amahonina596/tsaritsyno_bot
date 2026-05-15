@@ -1,0 +1,66 @@
+WORDS = [
+    # Большой дворец (30 карточек)
+    {"id": 1,  "location": "big_palace", "text": "Лиса",                              "answer": 24},
+    {"id": 2,  "location": "big_palace", "text": "Барыня",                            "answer": 31},
+    {"id": 3,  "location": "big_palace", "text": "Слизняк",                           "answer": 46},
+    {"id": 4,  "location": "big_palace", "text": "Писатель Антон Павлович Чехов",     "answer": 4},
+    {"id": 5,  "location": "big_palace", "text": "Григорий Потёмкин",                 "answer": 48},
+    {"id": 6,  "location": "big_palace", "text": "Музыкант",                          "answer": 23},
+    {"id": 7,  "location": "big_palace", "text": "Турист",                            "answer": 5},
+    {"id": 8,  "location": "big_palace", "text": "Белка",                             "answer": 26},
+    {"id": 9,  "location": "big_palace", "text": "Археолог",                          "answer": 3},
+    {"id": 10, "location": "big_palace", "text": "Хранитель",                         "answer": 17},
+    {"id": 11, "location": "big_palace", "text": "Фотограф",                          "answer": 12},
+    {"id": 12, "location": "big_palace", "text": "Кассир",                            "answer": 29},
+    {"id": 13, "location": "big_palace", "text": "Мама с коляской",                   "answer": 36},
+    {"id": 14, "location": "big_palace", "text": "Местная крестьянка",                "answer": 34},
+    {"id": 15, "location": "big_palace", "text": "Призрак вятича-ювелира",            "answer": 21},
+    {"id": 16, "location": "big_palace", "text": "Зевака-посетитель",                 "answer": 8},
+    {"id": 17, "location": "big_palace", "text": "Утка",                              "answer": 7},
+    {"id": 18, "location": "big_palace", "text": "Ребёнок",                           "answer": 43},
+    {"id": 19, "location": "big_palace", "text": "Сом",                               "answer": 2},
+    {"id": 20, "location": "big_palace", "text": "Рыбак",                             "answer": 28},
+    {"id": 21, "location": "big_palace", "text": "Экскурсовод",                       "answer": 42},
+    {"id": 22, "location": "big_palace", "text": "Призрак вятича-ювелира",            "answer": 47},
+    {"id": 23, "location": "big_palace", "text": "Студент-практикант",                "answer": 39},
+    {"id": 24, "location": "big_palace", "text": "Дуб",                               "answer": 41},
+    {"id": 25, "location": "big_palace", "text": "Журналист",                         "answer": 13},
+    {"id": 26, "location": "big_palace", "text": "Купальщик",                         "answer": 6},
+    {"id": 27, "location": "big_palace", "text": "Василий Баженов",                   "answer": 25},
+    {"id": 28, "location": "big_palace", "text": "Священник",                         "answer": 11},
+    {"id": 29, "location": "big_palace", "text": "Каменщик",                          "answer": 40},
+    {"id": 30, "location": "big_palace", "text": "Екатерина II",                      "answer": 16},
+
+    # Хлебный дом (8 карточек)
+    {"id": 31, "location": "bread_house", "text": "Смотритель",                                 "answer": 30},
+    {"id": 32, "location": "bread_house", "text": "Учёный историк",                             "answer": 44},
+    {"id": 33, "location": "bread_house", "text": "Призрак женщины из племени вятичей",         "answer": 32},
+    {"id": 34, "location": "bread_house", "text": "Сова",                                       "answer": 50},
+    {"id": 35, "location": "bread_house", "text": "Лебедь",                                     "answer": 35},
+    {"id": 36, "location": "bread_house", "text": "Лягушка",                                    "answer": 9},
+    {"id": 37, "location": "bread_house", "text": "Ласка",                                      "answer": 18},
+    {"id": 38, "location": "bread_house", "text": "Фрейлина",                                   "answer": 33},
+
+    # Первый оранжерейный корпус (7 карточек)
+    {"id": 39, "location": "greenhouse", "text": "Дачник и изобретатель Дмитрий Езучевский", "answer": 15},
+    {"id": 40, "location": "greenhouse", "text": "Велосипедист",                              "answer": 37},
+    {"id": 41, "location": "greenhouse", "text": "Дачница",                                   "answer": 22},
+    {"id": 42, "location": "greenhouse", "text": "Садовник",                                  "answer": 20},
+    {"id": 43, "location": "greenhouse", "text": "Начальник строительства",                   "answer": 27},
+    {"id": 44, "location": "greenhouse", "text": "Матвей Казаков",                            "answer": 14},
+    {"id": 45, "location": "greenhouse", "text": "Владелец кирпичного завода",                "answer": 38},
+
+    # Третий кавалерский корпус (5 карточек)
+    {"id": 46, "location": "cavalier", "text": "Землеройка",       "answer": 19},
+    {"id": 47, "location": "cavalier", "text": "Почтальон",        "answer": 49},
+    {"id": 48, "location": "cavalier", "text": "Жених",            "answer": 1},
+    {"id": 49, "location": "cavalier", "text": "Невеста",          "answer": 10},
+    {"id": 50, "location": "cavalier", "text": "Куратор выставки", "answer": 45},
+]
+
+LOCATIONS = {
+    "big_palace": "Большой дворец",
+    "bread_house": "Хлебный дом",
+    "greenhouse": "Первый оранжерейный корпус",
+    "cavalier": "Третий кавалерский корпус",
+}
