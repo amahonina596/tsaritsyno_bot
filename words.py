@@ -30,6 +30,8 @@ WORDS = [
     {"id": 28, "location": "big_palace", "text": "Священник",                         "answer": 11},
     {"id": 29, "location": "big_palace", "text": "Каменщик",                          "answer": 40},
     {"id": 30, "location": "big_palace", "text": "Екатерина II",                      "answer": 16},
+    {"id": 301, "location": "big_palace", "text": "Екатерина 2",                      "answer": 16},
+    {"id": 302, "location": "big_palace", "text": "Екатерина ll",                     "answer": 16},
 
     # Хлебный дом (8 карточек)
     {"id": 31, "location": "bread_house", "text": "Смотритель",                                 "answer": 30},
