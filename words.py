@@ -14,7 +14,7 @@ WORDS = [
     {"id": 12, "location": "big_palace", "text": "Кассир",                            "answer": 29},
     {"id": 13, "location": "big_palace", "text": "Мама с коляской",                   "answer": 36},
     {"id": 14, "location": "big_palace", "text": "Местная крестьянка",                "answer": 34},
-    {"id": 15, "location": "big_palace", "text": "Призрак вятича-ювелира",            "answer": 21},
+    {"id": 15, "location": "big_palace", "text": "Призрак вятича-гончара",            "answer": 21},
     {"id": 16, "location": "big_palace", "text": "Зевака-посетитель",                 "answer": 8},
     {"id": 17, "location": "big_palace", "text": "Утка",                              "answer": 7},
     {"id": 18, "location": "big_palace", "text": "Ребёнок",                           "answer": 43},
