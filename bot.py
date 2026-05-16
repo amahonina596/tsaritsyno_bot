@@ -244,7 +244,7 @@ def handle_message(user_id, text):
                 return
             word_obj = next(
                 (w for w in WORDS if w['location'] == loc_key
-                 and w['text'].lower() == word_part.lower()
+                 and w['text'].lower().strip() == word_part.lower().strip()
                  and w['answer'] == answer_num), None)
             if word_obj is None:
                 attempts_left -= 1
